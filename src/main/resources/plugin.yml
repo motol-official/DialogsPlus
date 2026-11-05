@@ -1,0 +1,11 @@
+name: DialogsPlus
+version: '2.1'
+main: com.motol.dialogsplus.DialogsPlus
+api-version: '26.3'
+author: motol
+
+commands:
+  dialogs:
+    description: Opens the Dialogs+ menu
+  dialogsplus:
+    description: Dialogs+ admin command
