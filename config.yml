@@ -1,0 +1,32 @@
+# Dialogs+ configuration
+
+# Custom commands that open a specific menu directly.
+# Format:  <menu-id>: "/customcommand"
+# Example: typing "/menu" in-game opens the menu with id "main"
+# NOTE: changes here require a full server restart to take effect
+#       (unlike menu YAML files, which /dialogsplus reload picks up live).
+commands:
+  main: "/menu"
+
+# General settings
+settings:
+  debug: false
+  default-menu: main
+  close-menu-on-invalid-input: true
+
+icons:
+  enabled: true
+  show-tooltip: true
+
+# Permissions required to use certain plugin features
+permissions:
+  reload: "dialogsplus.reload"
+  use-dialogs-command: "dialogsplus.use"
+
+# Customizable plugin messages. Supports '&' color codes.
+messages:
+  prefix: "&8[&bDialogs+&8] &r"
+  no-permission: "&cYou don't have permission to do that."
+  menu-not-found: "&cNo menu found with that id."
+  reload-success: "&aMenus reloaded successfully."
+  players-only: "&cThis command can only be used by players."
