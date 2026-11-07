@@ -3,6 +3,7 @@ version: '2.1'
 main: com.motol.dialogsplus.DialogsPlus
 api-version: '26.3'
 author: motol
+folia-supported: true
 
 commands:
   dialogs:
